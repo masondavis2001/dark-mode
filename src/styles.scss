@@ -91,6 +91,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,17 +106,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -123,6 +128,7 @@ q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -175,9 +181,9 @@ img {
   justify-content: space-between;
   padding: 0 3%;
   width: 100%;
-  -webkit-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
-  -moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
-  box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: 0 2px 15px -8px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0 2px 15px -8px rgba(0, 0, 0, 0.42);
+  box-shadow: 0 2px 15px -8px rgba(0, 0, 0, 0.42);
 }
 
 .dark-mode__toggle {
@@ -229,8 +235,8 @@ img {
 .coin__title {
   display: block;
   margin-left: 8px;
-    min-width: 160px;
-text-align: left;
+  min-width: 160px;
+  text-align: left;
 }
 
 .coin__symbol {
